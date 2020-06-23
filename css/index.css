@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box; 
+    margin: 0px;
+}
+
+@font-face {
+    font-family: 'NewFont';
+    src: url(../fonts/Raleway-Light.ttf);
+}
+
+/* NAV-NAV  */
+  
+   header {
+    font-family: 'NewFont';
+    font-size: 2.2em;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 1px;
+  }
+  
+  a .sideA {
+        width: 171px;
+        padding: 0px 9px;
+        position: absolute;
+        top: 35px;
+        left: 14.3em;
+        margin: 20px 10px;
+        color: #E2D8CC;
+        background-color: #1D2A33;
+  }
+
+  a.sideB {
+      width: 187px;
+      position: absolute;
+      top:10px;
+      right: 14.1em;
+      color: #c9a376;
+      text-decoration: none;
+      padding: 0 10px;
+  }
+  
+  .sideA:hover {
+    color: #f5f5f5;
+    border-bottom: 5px solid #c9a376;
+    transition: 0.1s ease-in;
+  }
+
+  .sideB:hover {
+      color: #E2D8CC;
+      transition: 0.1s ease-in;
+      border-bottom: 4px solid #c9a376;
+  }
+
+  /* BACKGROUND IMAGE */
+
+  .main {
+      height: 100vh;
+      background: url(../imgs/supbig.jpg);
+      background-size: cover;
+      background-position: center center;
+    }
+
+   

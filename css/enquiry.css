@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box; 
+    margin: 0px;
+    font-family: 'NewFont';
+    background-image: url(../imgs/bkimg4_bg.jpg);
+    background-position: right top;
+  }
+
+@font-face {
+    font-family: 'NewFont';
+    src: url(../fonts/Raleway-Light.ttf);
+}
+
+body {
+  margin-top: 5px;
+}
+/* NAVIGATION */
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-content: center;
+  justify-items: center;
+  list-style-type: none;
+}
+
+li a {
+  color: #c9a376;
+  padding-top: 20px;
+  text-decoration: none;
+  letter-spacing: 10px;
+  font-weight: 300;
+
+}
+
+.active {
+ font-size: 1.5em;
+ color: #f4f4f4;
+}
+
+/* ENQUIRE FORM */
+
+.form{
+  width: 85%;
+  max-width: 600px;
+  position: absolute;
+  top: 55%;
+  left: 55%;
+  transform: translate(-55%,-55%);
+  padding: 30px 40px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 20px #c9a376;
+  }
+  .form h1{
+  margin-top: 0;
+  font-weight: 200;
+  }
+
+  .txtb{
+  border:1px solid gray;
+  margin: 8px 0;
+  padding: 12px 18px;
+  border-radius: 8px;
+  }
+
+  .txtb label{
+  display: block;
+  text-align: left;
+  color: #c9a376;
+  text-transform: uppercase;
+  font-size: 14px;
+  }
+  
+  .txtb input,.txtb textarea{
+  color: #f4f4f4;
+  width: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 18px;
+  margin-top: 6px;
+}
+
+  .btn{
+  display: inline-block;
+  background: #c9a376;
+  padding: 14px 0;
+  color: #f4f4f4;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 8px;
+  width: 100%;
+}
+
+.btn:hover {
+  box-shadow: 5px -8px 10px -6px white;
+}
